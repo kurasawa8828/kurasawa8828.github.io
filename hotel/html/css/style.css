@@ -1,0 +1,480 @@
+body{
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #242424;
+}
+
+/*ヘッダー*/
+header{
+  background-color: #3e8a87;
+  height: 60px;
+  overflow: hidden;
+}
+
+.reserve{
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Hiragino Kaku Gothic Pro;
+  margin-top: 20px;
+  float: left;
+  margin-left: 120px;
+  /* float: left; */
+/*  margin-top: 20px;
+  margin-right: 346px;*/
+}
+
+.number{
+  width: 149px;
+  float: right;
+  margin-top: 20px;
+  /* float: right; */
+}
+
+.tel{
+  width: 400px;
+  height: 40px;
+  float: right;
+  overflow: hidden;
+}
+
+/*メイン画面*/
+.key-visual{
+  position: relative;
+  margin: 0 auto;
+  width: 1022px;
+  height: 560px;
+}
+
+.main-visual{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.main-visual h1{
+  width: 100px;
+  float: right;
+  margin: 20px 28px;
+  position: absolute;
+  z-index: 10;
+}
+
+.main-visual img{
+  position: absolute;
+  z-index: 3;
+}
+
+
+
+.key-visual p img{
+  z-index: 1;
+  margin: 0px -262px 0px;
+/*  background-image: url("../img/main.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;*/
+}
+
+
+
+.yajiruskimigi{
+  position: absolute;
+  top: 269px;
+  right: 0;
+  z-index: 30;
+}
+
+.yajirusihidari{
+  position: absolute;
+  top: 269px;
+  left: 0;
+  z-index: 30;
+}
+
+/*ナビゲーション*/
+.header-nav{
+  position: absolute;
+  z-index: 10;
+  height: 60px;
+  overflow: hidden;
+  width: 1024px;
+}
+
+.header-nav ul{
+  width: 691px;
+  list-style-type: none;
+/*  margin: 20px 0px 0px 270px;*/
+  position: absolute;
+  left: 274px;
+  top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.header-nav ul li{
+  font-size: 12px;
+  font-weight: bolder;
+  text-align: center;
+  border-left: solid 1px #ffffff;
+  float: left;
+}
+
+.header-nav ul li:last-child{
+  margin-right: 0px;
+  border-right: solid 1px #ffffff;
+}
+
+.header-nav ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}
+
+.header-nav ul li:nth-child(1){
+  width: 160px;
+}
+
+.header-nav ul li:nth-child(2){
+  width: 79px;
+}
+
+.header-nav ul li:nth-child(3){
+  width: 102px;
+}
+
+.header-nav ul li:nth-child(4){
+  width: 113px;
+}
+
+.header-nav ul li:nth-child(5){
+  width: 141px;
+}
+
+.header-nav ul li:nth-child(6){
+  width: 89px;
+}
+.header-nav ul li a span{
+  color: #999999;
+  font-size: 8px;
+  display: block;
+/*   position: absolute;
+top: 18px;
+left: 6px; */
+}
+
+.contents0{
+  width: 857px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.contents1{
+  width: 540px;
+  float: left;
+}
+
+.contents2{
+  width: 279px;
+  float: right;
+}
+
+/*朝食特集*/
+.breakfast img{
+  margin-top: 2px;
+  margin-left: -20px;
+}
+
+/*宿泊プラン*/
+.plun{
+  width: 540px;
+  margin: 34px 0px 0px;
+}
+
+.plun h2{
+  color: #885940;
+  border-bottom: 2px solid #cccccc;
+}
+.plun h3{
+  color: #673116;
+}
+
+.plun li{
+  width: 540px;
+  margin: 20px 20px 0px;
+  overflow: hidden;
+}
+
+.couple-plun1{
+  float: right;
+  width: 410px;
+  height: 86px;
+}
+
+.couple-plun1 a{
+  color: #673116;
+  font-size: 12px;
+}
+
+.couple-plun1 dt{
+  color: #999999;
+  font-size: 10px;
+}
+
+.couple-plun1 dd{
+  color: #676767;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.couple-plun2{
+  float: left;
+  margin: 0;
+  width: 110px;
+  height: 86px;
+}
+
+.girls-plun1{
+  float: right;
+  width: 410px;
+  height: 86px;
+}
+
+.girls-plun1 a{
+  color: #673116;
+  font-size: 12px;
+  width: 110px;
+}
+.girls-plun1 p{
+  color: #999999;
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+.girls-plun2{
+  float: left;
+  width: 110px;
+  height: 86px;
+}
+
+.fast-plun1{
+  float: right;
+  width: 410px;
+  height: 86px;
+}
+
+.fast-plun1 a{
+  color: #673116;
+  font-size: 12px;
+}
+
+.fast-plun1 p{
+  color: #999999;
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+.fast-plun2{
+  float: left;
+  width: 110px;
+  height: 86px;
+}
+
+.fast-plun2 a{
+  margin-left: 0px;
+}
+
+/*新着情報*/
+.new h2{
+  color: #885940;
+  margin-top: 38px;
+  border-bottom: 2px solid #cccccc;
+}
+
+.new ul{
+  color: #999999;
+  font-size:  14px;
+  margin-left: 20px;
+}
+
+.new ul li{
+  color: #999999;
+  text-decoration: none;
+  margin: 20px auto;
+  border-bottom: 1px solid #cccccc;
+}
+
+.new ul li a{
+  text-decoration: none;
+  color: #999999;
+}
+
+/*空室検索・WEBから予約*/
+.sarch ul{
+  margin-top: 24px;
+  text-align: center;
+}
+
+.sarch ul li{
+  background-color: #3e8a87;
+  padding: 25px 24px;
+  margin-bottom: 20px;
+  box-shadow: 3px 0px #cccccc;
+}
+
+.sarch ul li a{
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/*朝食プラン*/
+.free{
+  margin-top: 4px;
+  text-align: center;
+}
+
+.free img{
+  margin-top: 4px;
+}
+
+
+/*ホテル紹介*/
+.hotel{
+  margin-top: 24px;
+}
+
+.hotel p{
+  color: #3e8a87;
+  font-size: 12px;
+  text-decoration: none;
+  margin-top: 14px;
+  clear:both;
+  text-align: left;
+}
+
+.httel img{
+  margin-top: 20px;
+}
+
+.hotel h2{
+  color: #242424;
+  font-size: 16px;
+  margin: 16px 34px 0px;
+}
+
+.hotel h2 span{
+  font-size: 12px;
+  position: relative;
+}
+
+/*TOPへ戻る*/
+.contents-link{
+  background-color: #ffffff;
+  height: 34px;
+  border: solid 2px #3e8a87;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-align: center;
+  margin: 30px 40px;
+}
+
+.contents-link a{
+  color: #3e8a87;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+/*フッター*/
+footer{
+  background-color: #3e8a87;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.nav-access{
+  width: 857px;
+  margin: 33px auto 0;
+}
+
+.footer-nav{
+  float: left;
+  margin-bottom: 187px;
+  position: absolute;
+  z-index: 10;
+}
+
+.footer-nav ul{
+  list-style-type: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow: hidden;
+}
+
+.footer-nav ul li{
+  display: inline;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer-nav ul li:last-child{
+  margin-right: 0px;
+}
+
+.footer-nav ul li a{
+  text-decoration: none;
+}
+
+.footer-nav ul li a{
+  color: #ffffff;
+}
+
+.access{
+  border: solid 1px #ffffff;
+  float: right;
+  color: #ffffff;
+}
+
+.access th{
+  border: solid 1px #ffffff;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #ffffff;
+  padding: 10px 30px;
+}
+
+.access td{
+  border: solid 1px #ffffff;
+  font-size: 12px;
+  padding: 10px 30px;
+}
+
+.link{
+  width: 75px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.link li{
+  margin-top: 36px;
+}
+
+.twitter{
+  float: left;
+}
+
+.facebook{
+  float: right;
+  margin-bottom: 30px;
+}
+
+.copyright{
+  clear:both;
+  font-size: 12px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
