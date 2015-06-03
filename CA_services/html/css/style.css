@@ -1,0 +1,88 @@
+body{
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #242424;
+}
+
+/*---------------------------------------------------------------------------
+　ヘッダー
+----------------------------------------------------------------------------*/
+
+.contents0{
+  width: 1400px;
+  height: 1800px;
+  position: relative;
+}
+
+header{
+  background-color: #242424;
+  height: 27px;
+  width: 295px;
+  margin-top: 25px;
+  margin-left: 987px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 10px;
+}
+
+.sns{
+  background-color: #505050;
+  height: 27px;
+  width: 147px;
+  float: left;
+}
+
+.sns ul{
+  margin-left: 18px;
+}
+
+.sns li{
+  height: 27px;
+  width: 27px;
+  float: left;
+  margin-right: 15px;
+}
+
+.lang{
+  height: 27px;
+  width: 114px;
+  float: left;
+
+}
+
+.search{
+  height: 27px;
+  width: 32px;
+  float: right;
+}
+
+.menu{
+  position: absolute;
+  z-index: 20px;
+  margin-top: 25px;
+  margin-left: 113px;
+}
+
+.contents1{
+  width: 1400px;
+  height: 1800px;
+  background: url(../img/grid.png) no-repeat top center;
+  position: absolute;
+  z-index: 2px;
+}
+
+.grid{
+  position:absolute;
+  z-index: 3px;
+  margin-top: 0px;
+}
+.item1{
+  margin-left: 290px;
+}
+
+.item2{
+  width: 400x;
+  height: 270px;
+  margin-top: 0px;
+
+}
